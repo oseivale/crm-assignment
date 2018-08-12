@@ -1,0 +1,16 @@
+ActiveRecord Class Methods
+.all
+.count
+.find
+accepts an id as an argument
+.find_by
+accepts a key-value pair as an argument (attribute and value)
+.new
+accepts a hash as an argument (attributes as keys and values as...values)
+.create
+accepts a hash as an argument (same way new does)
+ActiveRecord Instance Methods
+.delete
+.save
+.update AKA .update_attributes
+accepts a hash as an argument (same way new and create do)
