@@ -1,3 +1,11 @@
+
+gem 'activerecord', '=4.2.7'
+require 'activerecord'
+require 'mini_record'
+
+ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'crm.sqlite3')
+
+
 class Contact
   attr_accessor :first_name, :last_name, :email, :note
   # This method should initialize the contact's attributes
